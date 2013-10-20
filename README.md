@@ -2,6 +2,8 @@
 
 A theme for [Ghost](http://github.com/tryghost/ghost/) by Adam Neilson.
 
+![theme](http://dl.dropboxusercontent.com/u/59039/Screenshots/jl9d.png)
+
 ## Copyright & License
 
 Copyright (C) 2013 Adam Neilson - Released under the MIT License.
