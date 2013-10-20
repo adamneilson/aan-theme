@@ -1,0 +1,47 @@
+{{!< default}}
+
+{{! The comment above "< default" means - insert everything in this file into
+    the {body} of the default.hbs template, which contains our header/footer. }}
+
+{{! The big featured header on the homepage, with the site logo and description }}
+<header id="site-head" style="background-image: url('/assets/img/scales.png')">
+    <div class="vertical">
+        <div id="site-head-content" class="inner">
+            <a id="blog-logo" href="{{@blog.url}}"><img src="/assets/img/icon.png" alt="Blog Logo" /></a>
+            <div class="tools">
+            	<a href="/rss/"><img src="/assets/img/rss.png" class="tool"></a>
+            	<a href="https://www.linkedin.com/profile/view?id=6939379"><img src="/assets/img/linkedin.png" class="tool"></a>
+            	<a href="http://twitter.com/adamneilson"><img src="/assets/img/twitter.png" class="tool"></a>
+            	<a href="http://github.com/adamneilson"><img src="/assets/img/github.png" class="tool"></a>
+            </div>
+        </div>
+    </div>
+</header>
+<div id="whoami">
+	<h1>Whoami</h1>
+    <h2 class="blog-description">CTO of <a href="http://healthunlocked.com">HealthUnlocked</a> & <a href="http://junkey.com">Junkey</a>, founder of <a href="http://opuss.com">Opuss</a>, dad, geek & tinkerer. Often found knee deep in code, sometimes cranking oil paint around a canvas, occasionally changing nappies and very occasionally wearing matching socks.</h2>
+</div>
+
+{{! The main content area on the homepage }}
+<main class="content" role="main">
+
+    {{! Each post will be output using this markup }}
+    {{#foreach posts}}
+
+    <article class="{{post_class}}">
+        <header class="post-header">
+            <span class="post-meta"><time datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMM YYYY"}}</time> {{#if tags}}on {{tags}}{{/if}}</span>
+            <h2 class="post-title"><a href="{{url}}">{{{title}}}</a></h2>
+
+        </header>
+        <section class="post-excerpt">
+            <p>{{excerpt}}&hellip;</p>
+        </section>
+    </article>
+
+    {{/foreach}}
+
+    {{!! After all the posts, we have the previous/next pagination links }}
+    {{pagination}}
+
+</main>
