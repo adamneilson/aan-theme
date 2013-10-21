@@ -365,7 +365,7 @@ table.plain {
     position: relative;
     display: table;
     width: 100%;
-    height: 30%;
+    height: 20%;
     text-align: center;
     color: #FEFAEF;
     background: #b4b2a9 no-repeat center center;
@@ -385,7 +385,7 @@ table.plain {
 .post-header #blog-logo img {
     display: block;
     height: 30%;
-    max-height: 240px;
+    max-height: 140px;
     width: auto;
     margin: 0 auto;
     line-height: 0;
@@ -576,9 +576,16 @@ table.plain {
 /* Insert some mad padding up in the header for better spacing */
 .post-template .post-header {
 /* 	width: 100%; */
-    padding: 60px 0;
+    padding: 30px 0;
     margin: 0px;
 	background-image: url('../img/scales.png');
+	background-color: #b4b2a9;
+}
+
+.breaker{
+	height: 20px;
+	background-color: rgba(89,97,102,0.41);
+	background-image: url('../img/wave.png');
 }
 
 /* Keep large images within the bounds of the post-width */
@@ -847,7 +854,7 @@ table.plain {
         box-sizing: border-box; 
 /*         height: auto; */
         min-height: 10px;
-        padding: 15% 0;
+        padding: 2% 0;
     }
 
     .blog-title {
@@ -904,7 +911,7 @@ table.plain {
     }
 
 	.post-header #blog-logo img {
-/* 	    max-height: 180px; */
+	    max-height: 100px;
 	}
      
     .inner, 
@@ -923,7 +930,7 @@ table.plain {
     }
 
     #site-head {
-        padding: 10% 0;
+        padding: 5% 0;
     }
 
     .blog-title {
