@@ -15,7 +15,8 @@
             {{/if}}
         </a>
     </header>
-    <div class="breaker"></div>
+    <div class="breaker">
+    </div>
         
         
     <article class="{{post_class}}">
@@ -24,8 +25,9 @@
         {{! Everything inside the #post tags pulls data from the post }}
         {{#post}}
 
-        {{! Everything below outputs content of the the post which has been published }}
+	    {{! Everything below outputs content of the the post which has been published }}
         <span class="post-meta"><time datetime="{{date format="YYYY-MM-DD"}}">{{date format='DD MMM YYYY'}}</time> {{#if tags}}on {{tags separator=" | "}}{{/if}}</span>
+        
 
         <h1 class="post-title">{{{title}}}</h1>
 

@@ -499,10 +499,14 @@ table.plain {
 
 .post-meta {
     display: inline-block;
-    margin: 0 0 5px 0;
+    margin: 0px auto;
     font-family: 'Open Sans', sans-serif;
     font-size: 1.5rem;
     color: #9EABB3;
+/* 	color: white; */
+/* 	line-height: 30px; */
+	width: 80%;
+	max-width: 800px;
 }
 
 .post-meta a {
@@ -579,13 +583,15 @@ table.plain {
     padding: 30px 0;
     margin: 0px;
 	background-image: url('../img/scales.png');
-	background-color: #b4b2a9;
+/* 	background-color: #b4b2a9; */
 }
 
 .breaker{
-	height: 20px;
-	background-color: rgba(89,97,102,0.41);
-	background-image: url('../img/wave.png');
+	height: 3px;
+/* 	border-bottom: 1px solid white; */
+	background-color: rgba(89,97,102,0.09);
+/* 	background-image: url('../img/wave.png'); */
+	margin-bottom: 13px;
 }
 
 /* Keep large images within the bounds of the post-width */
@@ -871,7 +877,7 @@ table.plain {
         font-size: 0.9em;
         line-height: 1.6em;
     }
-
+	
     .post-template .post {
         padding-bottom: 1rem;
     }
@@ -928,7 +934,7 @@ table.plain {
         font-size: 0.8em;
         line-height: 1.6em;
     }
-
+	
     #site-head {
         padding: 5% 0;
     }
