@@ -113,7 +113,7 @@ h4, h5, h6 {
     text-rendering: optimizeLegibility;
     line-height: 1;
     margin-top: 0;
-    font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto Slab', serif;
 }
 
 h1 {
@@ -237,7 +237,7 @@ mark {
 code, tt {
     padding: 1px 3px;
     font-family: Inconsolata, monospace, sans-serif;
-    font-size: 0.85em;
+    font-size: 0.65em;
     white-space: pre;
     border: 1px solid #E3EDF3;
     background: #F7FAFB;
@@ -252,7 +252,7 @@ pre {
     width: 100%;
     padding: 10px;
     font-family: Inconsolata, monospace, sans-serif;
-    font-size: 0.9em;
+    font-size: 0.7em;
     white-space: pre;
     overflow: auto;
     background: #F7FAFB;
@@ -500,8 +500,9 @@ table.plain {
 .post-meta {
     display: inline-block;
     margin: 0px auto;
-    font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto Slab', serif;
     font-size: 1.5rem;
+    font-weight: 100;
     color: #9EABB3;
 /* 	color: white; */
 /* 	line-height: 30px; */
@@ -516,6 +517,16 @@ table.plain {
 
 .post-meta a:hover {
     text-decoration: underline;
+}
+
+.tag {
+    font-size: 1.2rem;
+	color: white;
+	background-color: #96a9b8;
+	padding-left: 1.2rem;
+	padding-right: 1.2rem;
+	border-radius: 0.3rem;
+	text-transform: lowercase;
 }
 
 .user-meta {
