@@ -520,13 +520,15 @@ table.plain {
 
 
 .ph-island {
-	width: 30%;
+	width: 24%;
 	background-color: #787875;
-    padding-left: 9rem;
-    padding-right: 9rem;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     line-height: 2.2rem;
+    display: block;
+    margin: 1.4rem auto;
 /* 	background-image: url('../img/wave.png'); */
 }
     
