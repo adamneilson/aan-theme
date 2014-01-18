@@ -519,6 +519,10 @@ table.plain {
     text-decoration: underline;
 }
 
+.tags {
+	display: inline-block;
+}
+
 .tag {
     font-size: 1.2rem;
 	color: white;
