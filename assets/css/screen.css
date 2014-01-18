@@ -424,13 +424,12 @@ table.plain {
     color: #769eb7;
 }
 #whoami h1{
-    font-family: sans-serif;
     font-size: larger;
     text-transform: uppercase;
     text-align: center;
     color: #FEFAEF;
     letter-spacing: 2px;
-    font-family: 'Montserrat', serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .blog-description {
@@ -518,6 +517,38 @@ table.plain {
 .post-meta a:hover {
     text-decoration: underline;
 }
+
+
+.ph-island {
+	width: 30%;
+	background-color: #787875;
+    padding-left: 9rem;
+    padding-right: 9rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    line-height: 2.2rem;
+/* 	background-image: url('../img/wave.png'); */
+}
+    
+
+.ph-island a {
+	color: #9EABB3;
+    font-weight: 400;
+}
+.ph-island a:hover{
+    color: #769eb7;
+}
+
+.ph-island h1{
+    font-size: larger;
+    text-transform: uppercase;
+    text-align: center;
+    color: #FEFAEF;
+    letter-spacing: 2px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
 
 .tags {
 	display: inline-block;
@@ -855,6 +886,10 @@ table.plain {
 	width: 40px;
 	margin: 20px 6px
 }
+
+
+
+
 
 
 
