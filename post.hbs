@@ -6,20 +6,25 @@
 <main class="content" role="main">
 
     {{! Each post has the blog logo at the top, with a link back to the home page }}
-    <header class="post-header">
-        <a id="blog-logo" href="{{@blog.url}}">
-            {{#if @blog.logo}}
-                <img src="{{@blog.logo}}" alt="Blog Logo" />
-                <div class="ph-island">
-                	<h1>AAN.IO</h1>
-                </div>
-            {{else}}
-                {{@blog.title}}
-            {{/if}}
-        </a>
-    </header>
-    <div class="breaker">
+    <header id="site-head" style="background-image: url('/assets/img/scales.png')">
+    <div class="vertical">
+        <div id="site-head-content" class="inner">
+            <a id="blog-logo" href="{{@blog.url}}"><img src="/assets/img/icon.png" alt="Blog Logo" /></a>
+            <div class="tools">
+            	<a href="/rss/"><img src="/assets/img/rss.png" class="tool"></a>
+            	<a href="https://www.linkedin.com/profile/view?id=6939379"><img src="/assets/img/linkedin.png" class="tool"></a>
+            	<a href="http://twitter.com/adamneilson"><img src="/assets/img/twitter.png" class="tool"></a>
+            	<a href="http://github.com/adamneilson"><img src="/assets/img/github.png" class="tool"></a>
+            	<a href="http://www.flickr.com/photos/seamonsters/"><img src="/assets/img/flickr.png" class="tool"></a>
+            </div>
+        </div>
     </div>
+</header>
+<div id="whoami">
+	<h1>Whoami</h1>
+    <h2 class="blog-description">CTO of <a href="http://healthunlocked.com">HealthUnlocked</a> & <a href="http://junkey.com">Junkey</a>, founder of <a href="http://opuss.com">Opuss</a>, dad, geek & tinkerer. Often found knee deep in code, sometimes cranking oil paint around a canvas, occasionally changing nappies and very occasionally wearing matching socks.</h2>
+</div>
+    <div class="breaker"></div>
         
         
     <article class="{{post_class}}">

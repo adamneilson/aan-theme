@@ -640,7 +640,8 @@ table.plain {
 .breaker{
 	height: 3px;
 /* 	border-bottom: 1px solid white; */
-	background-color: rgba(89,97,102,0.09);
+/* 	background-color: rgba(89,97,102,0.09); */
+	background-color: red;
 /* 	background-image: url('../img/wave.png'); */
 	margin-bottom: 13px;
 }
