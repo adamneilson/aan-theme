@@ -526,9 +526,9 @@ table.plain {
     padding-right: 4rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    line-height: 2.2rem;
     display: block;
     margin: 1.4rem auto;
+    border-radius: 4px;
 /* 	background-image: url('../img/wave.png'); */
 }
     
@@ -545,6 +545,7 @@ table.plain {
     font-size: larger;
     text-transform: uppercase;
     text-align: center;
+    text-decoration: none;
     color: #FEFAEF;
     letter-spacing: 2px;
     font-family: 'Montserrat', sans-serif;
