@@ -496,6 +496,15 @@ table.plain {
     line-height: 1.6em;
 }
 
+
+.post-excerpt img {
+	display: block;
+	margin: auto;
+	width: 80%;
+	max-width: 800px;
+	max-height: 400px;
+}
+
 .post-meta {
     display: inline-block;
     margin: 0px auto;
