@@ -148,12 +148,14 @@ h6 {
 
 a {
 /*     color: #4a4a4a; */
-    color: #57A3E8;
+    color: #56a2e8;
     transition: color ease 0.3s;
+    text-decoration: none;
 }
 
 a:hover {
     color: #57A3E8;
+    text-decoration: overline;
 }
 
 h1 a, h2 a, h3 a,
@@ -496,6 +498,19 @@ table.plain {
     line-height: 1.6em;
 }
 
+.readmore-btn {
+	display: block;
+	margin: auto;
+    background-color: rgba(83,84,70,0.49);
+    width: 20%;
+    padding: 8px 26px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:#e7e8dd;
+    border-radius: 3px;
+    font-family: 'Montserrat', serif;
+}
 
 .post-excerpt img {
 	display: block;
