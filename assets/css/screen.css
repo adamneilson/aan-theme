@@ -705,15 +705,25 @@ table.plain {
    Doing it like this means it's easier for the author bio
    to be flexible at smaller screen sizes while the share
    links remain at a fixed width the whole time */
+   
+.post-footer .share {
+    position: static;
+    width: auto;
+    display: block;
+    text-align: center;
+    margin-bottom: 3rem;
+} 
+/*
 .post-footer .share {
     position: absolute;
     top: 4rem;
     right: 0;
     width: 140px;
 }
+*/
 
 .post-footer .share a {
-    font-size: 1.8rem;
+    font-size: 2.8rem;
     display: inline-block;
     margin: 1.4rem 1.6rem 1.6rem 0;
     color: #BBC7CC;
@@ -1063,12 +1073,13 @@ table.plain {
     .post-footer .author {
         margin: 0 0 2rem 0;
         padding: 0 0 1.6rem 0;
-        border-bottom: #EBF2F6 1px dashed;
+/*         border-bottom: #EBF2F6 1px dashed; */
     }
 
     .post-footer .share {
         position: static;
         width: auto;
+        margin: 21px 0px;
     }
 
     .post-footer .share a {
