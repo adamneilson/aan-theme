@@ -511,6 +511,10 @@ table.plain {
     border-radius: 3px;
     font-family: 'Montserrat', serif;
 }
+.readmore-btn:hover {
+    background-color: rgba(66,102,141,0.76);
+    transition: color ease 0.3s;
+}
 
 .post-excerpt img {
 	display: block;
