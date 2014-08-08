@@ -370,7 +370,7 @@ table.plain {
     height: 20%;
     text-align: center;
     color: #FEFAEF;
-    background: #353434 no-repeat center center;
+    background: #575550 no-repeat center center;
     background-size: cover;
 }
 
@@ -671,7 +671,7 @@ table.plain {
 /* 	background-color: rgba(89,97,102,0.09); */
 /* 	background-color: rgba(124,124,109,0.33); */
 /* 	background-image: url('../img/wave.png'); */
-	margin-bottom: 13px;
+	margin-bottom: 33px;
 }
 
 /* Keep large images within the bounds of the post-width */

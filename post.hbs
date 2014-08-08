@@ -7,24 +7,19 @@
 
     {{! Each post has the blog logo at the top, with a link back to the home page }}
     <header id="site-head" style="background-image: url('/assets/img/scales.png')">
-    <div class="vertical">
-        <div id="site-head-content" class="inner">
-            <a id="blog-logo" href="{{@blog.url}}"><img src="/assets/img/icon.png" alt="Blog Logo" /></a>
-            <div class="tools">
-            	<a href="/rss/"><img src="/assets/img/rss.png" class="tool"></a>
-            	<a href="https://www.linkedin.com/profile/view?id=6939379"><img src="/assets/img/linkedin.png" class="tool"></a>
-            	<a href="http://twitter.com/adamneilson"><img src="/assets/img/twitter.png" class="tool"></a>
-            	<a href="http://github.com/adamneilson"><img src="/assets/img/github.png" class="tool"></a>
-            	<a href="http://www.flickr.com/photos/seamonsters/"><img src="/assets/img/flickr.png" class="tool"></a>
-            </div>
-        </div>
-    </div>
-</header>
+	    <div class="vertical">
+	        <div id="site-head-content" class="inner page-head">
+	            <a id="blog-logo" href="{{@blog.url}}"><img  style="width:180px;border-radius:50%;border:8px solid #edece4;" src="/assets/img/ape_flat.png" alt="Blog Logo" /></a>
+	        </div>
+	    </div>
+	</header>
+
+	
 
     <div class="breaker"></div>
         
         
-    <article class="{{post_class}}">
+    <article class="{{post_class}}"  style="margin-top:120px;">
 
 
         {{! Everything inside the #post tags pulls data from the post }}
