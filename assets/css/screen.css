@@ -87,8 +87,6 @@ html {
 body {
     height: 100%;
     max-height: 100%;
-/*     font-family: 'Droid Serif', serif; */
-/*     font-family: 'Coustard', serif; */
 	font-family: 'Roboto Slab', serif;
     font-size: 2.0rem;
     line-height: 1.6em;
@@ -101,7 +99,7 @@ header {
 	width:100%;
 }
 .block-top{
-	background-image: url('/img/scales.png');
+	background-image: url('../img/scales.png');
 	background-color: #575550;
 	height: 120px;
 	width:100%;
