@@ -96,6 +96,29 @@ body {
     background-color: #edece4;
 }
 
+header {
+	background-color: #edece4;
+	height:240px;
+}
+header img {
+	margin: auto;
+	display: block;
+	z-index:10;
+	height:180px;
+	width:180px;
+	border-radius:50%;
+	border:8px solid #edece4;
+	top: -90px;
+	position: relative;
+}
+.block-top{
+	background-image: url('/img/scales.png');
+	background-color: #2c2b2b;
+	height: 120px;
+	margin: 0px;
+}
+	
+	
 ::-moz-selection {
     color: #222;
     background: #D6EDFF;
@@ -388,6 +411,7 @@ table.plain {
     display: block;
     height: 30%;
     max-height: 200px;
+    max-width: 200px;
     width: auto;
     margin: 0 auto;
     line-height: 0;
@@ -1008,10 +1032,12 @@ table.plain {
 
     #blog-logo img {
         max-height: 120px;
+        max-width: 120px;
     }
 
 	.post-header #blog-logo img {
 	    max-height: 100px;
+	    max-width: 100px;
 	}
      
     .inner, 

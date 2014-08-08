@@ -6,20 +6,16 @@
 <main class="content" role="main">
 
     {{! Each post has the blog logo at the top, with a link back to the home page }}
-    <header id="site-head" style="background-image: url('/assets/img/scales.png')">
-	    <div class="vertical">
-	        <div id="site-head-content" class="inner page-head">
-	            <a id="blog-logo" href="{{@blog.url}}"><img  style="width:180px;border-radius:50%;border:8px solid #edece4;" src="/assets/img/ape_flat.png" alt="Blog Logo" /></a>
-	        </div>
-	    </div>
-	</header>
-
+	<header>
+		<div class="block-top"></div>
+		<a href="{{@blog.url}}"><img style="" src="/assets/img/ape_flat.png" alt="Blog Logo"></a>
+	</header><!-- /header -->
 	
 
     <div class="breaker"></div>
         
         
-    <article class="{{post_class}}"  style="margin-top:120px;">
+    <article class="{{post_class}}">
 
 
         {{! Everything inside the #post tags pulls data from the post }}
