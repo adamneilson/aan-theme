@@ -1034,11 +1034,15 @@ table.plain {
     #blog-logo img {
         max-height: 120px;
         max-width: 120px;
+        height: 50%;
+        width: 50%;
     }
 
 	.post-header #blog-logo img {
 	    max-height: 100px;
 	    max-width: 100px;
+        height: 50%;
+        width: 50%;
 	}
      
     .inner, 
