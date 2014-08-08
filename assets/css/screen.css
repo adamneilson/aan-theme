@@ -99,6 +99,7 @@ body {
 header {
 	background-color: #edece4;
 	height:240px;
+	width:100%;
 }
 header img {
 	margin: auto;
@@ -113,8 +114,9 @@ header img {
 }
 .block-top{
 	background-image: url('/img/scales.png');
-	background-color: #2c2b2b;
+	background-color: #575550;
 	height: 120px;
+	width:100%;
 	margin: 0px;
 }
 	
