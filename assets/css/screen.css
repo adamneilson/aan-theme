@@ -1032,8 +1032,8 @@ table.plain {
 @media only screen and (max-width: 500px) {
 
     #blog-logo img {
-        max-height: 120px;
-        max-width: 120px;
+        max-height: 150px;
+        max-width: 150px;
         height: 50%;
         width: 50%;
     }
