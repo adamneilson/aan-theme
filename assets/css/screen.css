@@ -377,7 +377,7 @@ table.plain {
 /* Yo-logo. Yolo-go. Upload one in ghost/settings/ */
 #blog-logo img {
     display: block;
-    max-height: 180px;
+    max-height: 280px;
     width: auto;
     margin: 0 auto;
     line-height: 0;
@@ -387,7 +387,7 @@ table.plain {
 .post-header #blog-logo img {
     display: block;
     height: 30%;
-    max-height: 140px;
+    max-height: 200px;
     width: auto;
     margin: 0 auto;
     line-height: 0;
