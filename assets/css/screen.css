@@ -100,17 +100,6 @@ header {
 	background-color: #edece4;
 	width:100%;
 }
-header img {
-	margin: auto;
-	display: block;
-	z-index:10;
-	height:180px;
-	width:180px;
-	border-radius:50%;
-	border:8px solid #edece4;
-	top: -90px;
-	position: relative;
-}
 .block-top{
 	background-image: url('/img/scales.png');
 	background-color: #575550;
